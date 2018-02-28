@@ -11,3 +11,7 @@ document.getElementById("add_todo").onclick = function(){
 
     console.log(input.value);
 }
+
+document.getElementsByTagName("li").onclick = function(){
+  document.getElementsByTagName("li").hide();
+}
